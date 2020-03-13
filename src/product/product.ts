@@ -4,7 +4,7 @@ import { IsString, IsNumber, MinLength, Min, IsDefined } from 'class-validator';
 @Entity()
 export class Product {
   @PrimaryGeneratedColumn()
-  productId: number;
+  id: number;
 
   @Column()
   // add validator
